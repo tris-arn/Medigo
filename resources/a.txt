@@ -1,0 +1,20 @@
+App\Models\Post::create([
+    "title"=>"Judul Ketiga",
+    "category_id"=>3,
+    "slug"=>"judul-ketiga",
+    "excerpt"=>"Lorem ipsum Ketiga",
+    "body"=>"<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio amet ratione, alias quae nobis, cupiditate ea adipisci nesciunt error culpa laborum minus, harum consequatur provident temporibus vel ut explicabo eum inventore? Aut sapiente doloremque consequatur ipsa suscipit commodi culpa, laborum voluptas, repellat accusamus possimus quam esse explicabo quidem voluptatum est cumque quisquam ut eligendi. Similique nam eum, cupiditate nisi reprehenderit molestiae maiores facere suscipit. </p><p>Earum, rerum. Delectus iure rem alias nihil repellendus voluptates voluptatibus consequuntur ipsum repudiandae fuga eius atque doloremque iusto, minus earum expedita reprehenderit numquam? Temporibus eligendi soluta fugit minus, eaque incidunt amet ducimus rerum nobis facere? </p><p>Nulla veritatis obcaecati assumenda veniam pariatur molestiae esse? Aperiam animi odio similique iure perspiciatis fugiat adipisci laboriosam, itaque fuga quaerat maxime, voluptatibus voluptate iusto ratione, id ad autem culpa tempore! Nobis veritatis delectus accusamus, incidunt nesciunt nulla aliquid in illum asperiores, veniam cumque non nostrum ut vitae modi.</p><p> Voluptatem perferendis veniam ea laboriosam in a. Doloribus neque eveniet beatae et aut commodi amet provident corporis. Reiciendis, excepturi sit, neque incidunt modi quaerat exercitationem impedit nostrum natus assumenda perferendis consequuntur ipsa eligendi.</p>"
+])
+
+User::create([
+    "name"=>"Gladys",
+    "email"=>"gladys@ruslim.com",
+    "password"=>"123asb"
+])
+
+
+App\Models\Category::create([
+    "name"=>"Personal",
+    "slug"=>"personal",
+])
+ 
