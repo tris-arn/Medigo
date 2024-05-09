@@ -13,7 +13,7 @@
   </head>
   <body>
     @include('Structure.navbar')
-    <div class="container mt-4">
+    <div>
         @yield('container')
     </div>
     @include('Structure.footer')

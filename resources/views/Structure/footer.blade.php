@@ -37,7 +37,7 @@
   </div>
   <section class="mt-5">
         <!-- Grid row-->
-        <div class="row text-center d-flex justify-content-center">
+        <div class="row text-center d-flex justify-content-center" style="width: 100%">
           <!-- Grid column -->
           <div class="col-md-2 mb-3 mt-0">
             <h6 class="font-weight-bold" id="NavItems">
