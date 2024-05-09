@@ -8,9 +8,17 @@
 body {
     /* background-color: var(--main1-color); */
 }
+footer{
+    background-color: var(--main1-color);
+}
 #NavItems{
     font-family: 'Chopin-Trial';
     font-weight: bold;
+    /* font-size: 23px; */
+}
+#chopin{
+    font-family: 'Chopin-Trial';
+    font-size: 23px;
 }
 #loginBTN{
     background-color: var(--main2-color);
@@ -23,5 +31,30 @@ body {
     --main2-color: rgba(81, 159, 145, 100);
 
 }
+.separator {
+  display: inline-block; /* Make the separator behave inline */
+  margin-left: 5px; /* Adjust the spacing between the separator and the text as needed */
+  margin-right: 5px; /* Adjust the spacing between the separator and the text as needed */
+  color: black; /* Color of the separator */
+}
+
+.horizontal-line {
+  flex-grow:1;
+  height: 2px;
+  background-color: rgba(0 , 0, 0, 100);
+  /* padding: 10 10; Adjust the left and right margins as needed */
+}
 
 
+.mb-4.d-flex {
+  display: flex;
+  flex-direction: row; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 100%; /* Ensure the section takes up the full height */
+}
+
+#mainbanner{
+    background-color: var(--main1-color);
+    
+}

@@ -1,6 +1,8 @@
 @extends('Structure.main')
 
 @section('container')
-    <h1>Halaman Home</h1>    
+    {{-- <div id="mainbanner">
+        <img src="public\img\Rectangle 27.svg" alt="">
+    </div> --}}
 @endsection
 
