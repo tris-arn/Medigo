@@ -1,22 +1,22 @@
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--main1-color) ">
-    <div class="container">
+    {{-- <div class="container" > --}}
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="bi bi-list" style="color:var(--main2-color)"></i>  
           
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" style="margin-left: 50px"  id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 flex-grow-1">
-                <li class="nav-item">
+                <li class="nav-item col-md-3">
                     <a class="nav-link text-dark" id="NavItems" href="/">HOME</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-md-3">
                     <a class="nav-link text-dark" id="NavItems" href="/about">PRODUCT</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-md-3">
                     <a class="nav-link text-dark" id="NavItems" href="/blog">CART</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-md-3">
                     <button class="nav-link text-light rounded-50" id="loginBTN">LOG IN</button>
                 </li>
             </ul>
@@ -24,14 +24,14 @@
             <!-- Add margin-right to navbar-brand -->
             <a class="navbar-brand flex-grow-1 text-center me-3" href="/"><img src="img\MedigoLogo.svg" alt="Medigo Logo"></a>
 
-            <form class="form-inline my-2 my-lg-0 flex-grow-1" action="/">
-                <div class="input-group mb-3 w-100">
+            <form class="form-inline my-2 my-lg-0 flex-grow-1" style="margin-right: 50px;" action="/">
+                <div class="input-group mb-3 w-100" style="margin-top:20px;">
                     <input type="text" class="form-control" placeholder="Search.." name="search">
                     <button class="btn" style="background-color:var(--main2-color)" type="submit"><i style="color: var(--main1-color)" class="bi bi-search"></i></button>
                 </div>
             </form>
         </div>
-    </div>
+    {{-- </div> --}}
 </nav>
 
 

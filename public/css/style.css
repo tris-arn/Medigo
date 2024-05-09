@@ -58,3 +58,6 @@ footer{
     background-color: var(--main1-color);
     
 }
+#navbarSupportedContent{
+    width: 100%;
+}
