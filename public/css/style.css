@@ -13,7 +13,6 @@ footer{
 #NavItems{
     font-family: 'Chopin-Trial';
     font-weight: bold;
-    /* font-size: 23px; */
 }
 #chopin{
     font-family: 'Chopin-Trial';
@@ -69,4 +68,111 @@ footer{
     width: 400px;
     height: 500px;
     margin: auto;
+}
+
+/* Tabs */
+.tabs{
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 400px; */
+    font-family: 'Chopin-Trial';
+    font-weight: 600;
+    justify-content: center;
+}
+.tabs__label{
+    padding: 10px 16px;
+    height: fit-content;
+    cursor: pointer;
+    font-size: 23px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.tabs__radio{
+    display: none;
+}
+
+.tabs__content{
+    order:1;
+    width: 100%;
+    border-bottom: 3px solid white;
+    line-height: 1.5px;
+    font-size: 0.9em;
+    display: none;
+}
+
+.tabs__radio:checked+.tabs__label{
+    font-weight: bold;
+    color: var(--main2-color);
+    border-bottom: 3px solid var(--main2-color);
+}
+.tabs__radio:checked+.tabs__label+.tabs__content{
+    display: initial;
+}
+
+.card{
+    /* display: none; */
+    margin: 20px;
+    width: 250px !important;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.crd-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 30px;
+    align-self: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+    margin-top: 10px;
+   font-family: 'Chopin-Trial';
+    font-weight: 700;
+    align-self: flex-start;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.card-text{
+    display: flex;
+    align-self: flex-start;
+}
+.card-desc{
+    display: flex;
+    align-self: flex-start;
+    font-family: 'Chopin-Trial';
+    font-weight: 500;
+    color: #3D3E3F;
+}
+
+#addbtn{
+    /* border-color: var(--main2-color); */
+    border: solid 2px var(--main2-color);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Chopin-Trial';
+    font-weight: bold;
+    color: var(--main2-color);
+}
+
+#addbtn:hover{
+    /* border-color: var(--main2-color); */
+    background-color:  var(--main2-color);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Chopin-Trial';
+    font-weight: bold;
+    color: white;
 }
