@@ -1,6 +1,13 @@
 <?php
 
+use App\Livewire\Cart;
+use App\Livewire\Profile\NavProfile;
+use App\Livewire\Profile\UserProfile;
 use Illuminate\Support\Facades\Route;
+use App\Livewire\Profile\LogOut;
+use App\Livewire\Profile\ChangePassword\OldPasswordCheck;
+use App\Livewire\Profile\ChangePassword\NewPasswordConfirm;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +27,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('LandingPage.index');
 });
+
+// profile
+Route::get('/profile', UserProfile::class);
+Route::get('/changePassOld', OldPasswordCheck::class);
+Route::get('/newPass', NewPasswordConfirm::class);
+Route::get('/logout', Logout::class);
+// cart
+Route::get('/cart', Cart::class);
