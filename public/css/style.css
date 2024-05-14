@@ -64,6 +64,8 @@ footer{
 }
 
 #PromoBanner{
+    /* background-image: url("image/Drug.png")
+    no-repeat center center; */
     background-color: black;
     width: 400px;
     height: 500px;
@@ -74,7 +76,6 @@ footer{
 .tabs{
     display: flex;
     flex-wrap: wrap;
-    /* max-width: 400px; */
     font-family: 'Chopin-Trial';
     font-weight: 600;
     justify-content: center;
