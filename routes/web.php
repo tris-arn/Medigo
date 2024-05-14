@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\Cart;
+use App\Livewire\LandingPage\Index;
 use App\Livewire\Profile\NavProfile;
 use App\Livewire\Profile\UserProfile;
 use Illuminate\Support\Facades\Route;
@@ -24,9 +25,7 @@ use App\Livewire\Profile\ChangePassword\NewPasswordConfirm;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
-    return view('LandingPage.index');
-});
+Route::get('/', Index::class);
 
 // profile
 Route::get('/profile', UserProfile::class);

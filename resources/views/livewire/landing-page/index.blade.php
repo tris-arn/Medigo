@@ -1,6 +1,9 @@
-@extends('Structure.main')
+{{-- @extends('Structure.main') --}}
 
-@section('container')
+{{-- @section('container') --}}
+<div>
+
+
     <img src="{{ asset("image\BannerMain.png") }}" style="width:100%;height:auto;"alt="">
     <div style="margin-top: 150px; width:100%">
         <h1 class="text-center" style="font-size: 40px;font-weight:600;" id="chopin">Categories</h1>
@@ -223,5 +226,6 @@
 
         </div>
     </div>
-@endsection
+</div>
+{{-- @endsection --}}
 

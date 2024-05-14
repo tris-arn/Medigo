@@ -2,19 +2,36 @@
     {{-- <div class="container" > --}}
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="bi bi-list" style="color:var(--main2-color)"></i>  
-          
         </button>
 
         <div class="collapse navbar-collapse" style="margin-left: 50px"  id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 flex-grow-1">
                 <li class="nav-item col-md-3">
-                    <a class="nav-link text-dark" id="NavItems" href="/">HOME</a>
+                    <a class="nav-link text-dark " id="NavItems" href="/">
+                      @if(Request::is("/"))
+                      <u>HOME</u>
+                      @else
+                      HOME
+                      @endif
+                    </a>
                 </li>
                 <li class="nav-item col-md-3">
-                    <a class="nav-link text-dark" id="NavItems" href="/about">PRODUCT</a>
+                    <a class="nav-link text-dark" id="NavItems" href="/product">
+                      @if(Request::is("product"))
+                      <u>PRODUCT</u>
+                      @else
+                      PRODUCT
+                      @endif
+                    </a>
                 </li>
                 <li class="nav-item col-md-3">
-                    <a class="nav-link text-dark" id="NavItems" href="/blog">CART</a>
+                    <a class="nav-link text-dark" id="NavItems" href="/cart">
+                      @if(Request::is("cart"))
+                      <u>CART</u>
+                      @else
+                      CARTu
+                      @endif
+                    </a>
                 </li>
                 <li class="nav-item col-md-3">
                     <button class="nav-link text-light rounded-50" id="loginBTN">LOG IN</button>
