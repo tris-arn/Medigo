@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\Cart;
+use App\Livewire\Product\Product;
 use App\Livewire\LandingPage\Index;
 use App\Livewire\Profile\NavProfile;
 use App\Livewire\Profile\UserProfile;
@@ -32,5 +33,9 @@ Route::get('/profile', UserProfile::class);
 Route::get('/changePassOld', OldPasswordCheck::class);
 Route::get('/newPass', NewPasswordConfirm::class);
 Route::get('/logout', Logout::class);
+
 // cart
 Route::get('/cart', Cart::class);
+
+// product
+Route::get('/product', Product::class);
