@@ -1,14 +1,15 @@
 <?php
 
-<<<<<<< Updated upstream
-=======
 use App\Livewire\Cart;
 use App\Livewire\Product\Product;
 use App\Livewire\LandingPage\Index;
 use App\Livewire\Profile\NavProfile;
 use App\Livewire\Profile\UserProfile;
->>>>>>> Stashed changes
 use Illuminate\Support\Facades\Route;
+use App\Livewire\Profile\LogOut;
+use App\Livewire\Profile\ChangePassword\OldPasswordCheck;
+use App\Livewire\Profile\ChangePassword\NewPasswordConfirm;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -21,13 +22,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
+Route::get('/', Index::class);
 
-<<<<<<< Updated upstream
-=======
 // profile
 Route::get('/profile', UserProfile::class);
 Route::get('/changePassOld', OldPasswordCheck::class);
@@ -39,4 +39,3 @@ Route::get('/cart', Cart::class);
 
 // product
 Route::get('/product', Product::class);
->>>>>>> Stashed changes
