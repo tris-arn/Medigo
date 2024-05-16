@@ -3,6 +3,7 @@
 use App\Livewire\Cart;
 use App\Livewire\Product\Product;
 use App\Livewire\LandingPage\Index;
+use App\Livewire\Product\Products;
 use App\Livewire\Profile\NavProfile;
 use App\Livewire\Profile\UserProfile;
 use Illuminate\Support\Facades\Route;
@@ -39,3 +40,6 @@ Route::get('/cart', Cart::class);
 
 // product
 Route::get('/product', Product::class);
+
+//All product
+Route::get('/products', Products::class);
