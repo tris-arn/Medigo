@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Chopin-Trial';
     src: url('public\font\Chopin-Trial-Bold.ttf') format('ttf');
-        
+
 }
 
 /* Use the font */
 /* body {/* background-color: var(--main1-color); */
-/* } */ 
+/* } */
 footer{
     background-color: var(--main1-color);
 }
@@ -25,7 +25,7 @@ footer{
 
 }
 :root {
-    --main1-color: rgba(231, 244, 224, 100); 
+    --main1-color: rgba(231, 244, 224, 100);
     --main2-color: rgba(81, 159, 145, 100);
 
 }
@@ -65,7 +65,7 @@ footer{
 
 
 #PromoBanner{
-    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)); 
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7));
     width: 400px;
     height: 500px;
     margin: auto;
@@ -125,11 +125,17 @@ footer{
     border-radius: 10px 10px 10px 10px;
     margin-top: 30px;
     align-self: center;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+
 }
 
 .card{
     display: flex;
     justify-content: center;
+    height: 420px;
 }
 .card-title{
     margin-top: 10px;

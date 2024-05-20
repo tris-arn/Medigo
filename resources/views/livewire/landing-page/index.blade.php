@@ -115,8 +115,6 @@
     </div> 
 
     <div class="tabs" style="width: 100%;margin-top:100px;margin-bottom:100px">
-              
-
         <input type="radio" class="tabs__radio" name="tabs-div" id="Best_Seller" checked>
         <label for="Best_Seller" class="tabs__label">Best</label>
         <div class="tabs__content" style="width:100%">

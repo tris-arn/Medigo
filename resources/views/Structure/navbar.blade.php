@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li class="nav-item col-md-3">
-                    <button class="nav-link text-light rounded-50" id="loginBTN">LOG IN</button>
+                    <button class="nav-link text-light rounded-50" id="loginBTN"><strong>LOG IN</strong></button>
                 </li>
             </ul>
 
