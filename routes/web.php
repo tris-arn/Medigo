@@ -2,6 +2,7 @@
 
 use App\Livewire\Cart;
 use App\Livewire\LandingPage\Index;
+use App\Livewire\History\IndexHistory;
 use App\Livewire\Profile\NavProfile;
 use App\Livewire\Profile\UserProfile;
 use Illuminate\Support\Facades\Route;
@@ -34,3 +35,5 @@ Route::get('/newPass', NewPasswordConfirm::class);
 Route::get('/logout', Logout::class);
 // cart
 Route::get('/cart', Cart::class);
+//history
+Route::get('/history', IndexHistory::class);

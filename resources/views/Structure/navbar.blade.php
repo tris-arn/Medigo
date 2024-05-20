@@ -29,7 +29,7 @@
                       @if(Request::is("cart"))
                       <u>CART</u>
                       @else
-                      CARTu
+                      CART
                       @endif
                     </a>
                 </li>
